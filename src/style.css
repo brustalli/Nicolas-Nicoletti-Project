@@ -7,18 +7,32 @@ body {
 ul.nav-bar {
   list-style: none;
   overflow: hidden;
-  position: fixed;
   top: 0;
-  width: 100%;
+  width: 90%;
+  position: fixed;
+  text-align: right;
 }
 
 ul.nav-bar li {
-  display: inline;
-  
+  display: inline-block;
+  padding: 20px;
 }
 
 @media screen and (max-width: 600px) {
   ul.nav-bar li {
     float: none;
   }
+}
+
+img {
+  width: 150px;
+  margin-left: 80px;
+}
+
+div.profile {
+  margin-top: 100px;
+}
+
+div h3 {
+  margin-left: 70px;
 }
