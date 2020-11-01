@@ -8,11 +8,11 @@ body {
 ul.nav-bar {
   list-style: none;
   overflow: hidden;
-  top: 0;
-  width: 80%;
-  position: fixed;
+  top: -15px;
+  position: relative;
+  background: #f0e4d2;
   text-align: right;
-  background-color: #ffffff;
+  background: linear-gradient(90deg, #f0e4d2 50%, #fff 50%);
 }
 
 ul.nav-bar li {
@@ -68,7 +68,6 @@ p.opening-profile {
 
 div.rigth-col {
   background-color: #ffffff;
-  padding: 50px 50px 50px 20px;
   margin-left: 20px;
 }
 
