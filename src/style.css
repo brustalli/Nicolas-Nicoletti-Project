@@ -1,4 +1,4 @@
-body {
+body.index {
   background: linear-gradient(90deg, #f0e4d2 50%, #fff 50%);
   color: #252020;
   font-family: "Raleway", sans-serif;
@@ -15,27 +15,30 @@ div.header {
   box-shadow: 3px 2px 10px 1px #b8b7b769;
 }
 
-.row {
-  margin: 0 auto;
-}
-.column {
-  float: left;
-  width: 50%;
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
+ul.navbar-nav li {
+  color: #252020a2;
+  font-size: 22px;
+  padding: 0 20px;
+  list-style: none;
 }
 
 div.profile {
   margin-top: 40px;
 }
+div.row {
+  margin: 0 auto;
+}
+div.column {
+  float: left;
+  width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  div.column {
+    width: 100%;
+  }
+}
+
 div.left-col {
   background-color: rgb(247, 238, 229);
   box-shadow: 3px 2px 10px 1px #888888;
@@ -53,26 +56,29 @@ img.profile {
   padding: 25px;
 }
 
-p.opening-profile {
-  padding-bottom: 20px;
+h3.full-name {
+  font-weight: bold;
 }
 
-ul li {
+p.opening-profile {
+  font-weight: bolder;
+  padding-bottom: 20px;
+}
+ul.logo-instagram li {
   color: #252020a2;
   font-size: 22px;
-  padding: 0 40px 20px 0;
   list-style: none;
+  padding: 0 40px 20px 0;
 }
+
 div.rigth-col {
   background-color: #ffffff;
   margin: 20px;
   padding: 20px;
 }
-.image-logo {
-  width: 60px;
-}
+
 h1.introduction {
-  font-size: 50px;
+  font-weight: bold;
 }
 
 a:link {
@@ -94,15 +100,41 @@ a:active {
   text-decoration: none;
 }
 
-div.content {
-  background-color: #ffffff;
-  padding: 20px;
-  margin: 30px;
-}
 footer {
   font-size: 10px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  text-align: right;
+  text-align: end;
   color: #252020a4;
   margin: 20px;
+}
+
+body.content-texts-page {
+  background: #f0e4d2;
+}
+
+h2.title-content-texts {
+  text-align: center;
+  font-weight: bold;
+  padding: 60px;
+}
+
+.fa-square {
+  font-size: 15px;
+  color: #4b169b;
+}
+
+p.introduction-text {
+  padding: 0 200px 40px 200px;
+  text-align: center;
+}
+
+div.content-texts {
+  background-color: #ffffff;
+  padding: 40px;
+  margin: 40px 200px 20px 200px;
+}
+
+h4.titles-texts {
+  color: #4b169b;
+  font-weight: bold;
 }
