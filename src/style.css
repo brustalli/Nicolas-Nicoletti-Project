@@ -17,7 +17,7 @@ div.header {
 
 ul.navbar-nav li {
   color: #252020a2;
-  font-size: 22px;
+  font-size: 20px;
   padding: 0 20px;
   list-style: none;
 }
@@ -56,12 +56,11 @@ img.profile {
   padding: 25px;
 }
 
-h3.full-name {
-  font-weight: bold;
+h5.full-name {
+  font-family: "Poppins", sans-serif;
 }
 
 p.opening-profile {
-  font-weight: bolder;
   padding-bottom: 20px;
 }
 ul.logo-instagram li {
@@ -75,10 +74,20 @@ div.rigth-col {
   background-color: #ffffff;
   margin: 20px;
   padding: 20px;
+  width: 50%;
 }
 
-h1.introduction {
-  font-weight: bold;
+h2.introduction {
+  font-family: "Poppins", sans-serif;
+}
+
+p.text-introduction {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+p.personal-introduction {
+  font-size: 14px;
 }
 
 a:link {
@@ -114,7 +123,7 @@ body.content-texts-page {
 
 h2.title-content-texts {
   text-align: center;
-  font-weight: bold;
+  font-family: "Poppins", sans-serif;
   padding: 60px;
 }
 
@@ -123,18 +132,23 @@ h2.title-content-texts {
   color: #4b169b;
 }
 
-p.introduction-text {
-  padding: 0 200px 40px 200px;
+div.introduction-text {
   text-align: center;
+  margin-left: 350px;
+  padding-bottom: 40px;
+  max-width: 50%;
+  min-width: 50%;
 }
 
 div.content-texts {
   background-color: #ffffff;
+  margin-left: 350px;
   padding: 40px;
-  margin: 40px 200px 20px 200px;
+  box-shadow: 3px 2px 10px 1px #b8b7b769;
+  width: 50%;
 }
 
 h4.titles-texts {
   color: #4b169b;
-  font-weight: bold;
+  font-family: "Poppins", sans-serif;
 }
