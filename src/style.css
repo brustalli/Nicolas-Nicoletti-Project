@@ -119,12 +119,18 @@ footer {
 
 body.content-texts-page {
   background: #f0e4d2;
+  padding-top: 80px;
+}
+
+div.column-texts-page {
+  max-width: 60%;
+  margin: 0 auto;
 }
 
 h2.title-content-texts {
   text-align: center;
   font-family: "Poppins", sans-serif;
-  padding: 60px;
+  padding-bottom: 70px;
 }
 
 .fa-square {
@@ -134,18 +140,13 @@ h2.title-content-texts {
 
 div.introduction-text {
   text-align: center;
-  margin-left: 350px;
-  padding-bottom: 40px;
-  max-width: 50%;
-  min-width: 50%;
+  padding-bottom: 50px;
 }
 
 div.content-texts {
   background-color: #ffffff;
-  margin-left: 350px;
-  padding: 40px;
   box-shadow: 3px 2px 10px 1px #b8b7b769;
-  width: 50%;
+  padding: 40px;
 }
 
 h4.titles-texts {
