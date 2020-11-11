@@ -91,6 +91,7 @@ p.personal-introduction {
 }
 
 a:link {
+  color: #312525;
   text-decoration: none;
 }
 
@@ -105,6 +106,7 @@ a:hover {
 }
 
 a:active {
+  color: #312525;
   text-decoration: none;
 }
 
