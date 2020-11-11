@@ -3,6 +3,7 @@ body.index {
   color: #252020;
   font-family: "Raleway", sans-serif;
   padding-top: 80px;
+  font-weight: 400;
 }
 
 div.header {
@@ -13,12 +14,20 @@ div.header {
   background: linear-gradient(90deg, #f0e4d2 50%, #fff 50%);
   box-shadow: 3px 2px 10px 1px #b8b7b769;
   width: 100%;
+  font-weight: 300;
 }
 
 ul.navbar-nav li {
-  font-size: 20px;
+  font-size: 16px;
   padding: 0 20px;
-  list-style: none;
+}
+
+.nav-link {
+  color: #312525 !important;
+}
+
+.nav-link:hover {
+  color: #a89a9a !important;
 }
 
 div.profile {
@@ -101,7 +110,7 @@ a:visited {
 }
 
 a:hover {
-  color: #645757;
+  color: #a89a9a;
   text-decoration: none;
 }
 
