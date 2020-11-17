@@ -69,29 +69,32 @@ div #left-col {
   background-color: rgb(247, 238, 229);
   box-shadow: 3px 2px 10px 1px #888888;
   text-align: center;
+  padding-top: 20px;
 }
 
 img.profile {
-  width: 160px;
+  width: 110px;
   max-width: 100%;
   border-radius: 50%;
+  border: 2px solid #4b169b;
   display: block;
   margin: 0 auto;
-  padding: 25px;
 }
 
 h5.full-name {
   font-family: "Poppins", sans-serif;
+  padding: 15px;
 }
 
 p.opening-profile {
   padding-bottom: 20px;
 }
-ul.logo-instagram li {
+a.logo-instagram {
   color: #252020a2;
   font-size: 22px;
   list-style: none;
-  padding: 0 40px 20px 0;
+  display: block;
+  margin: 0 auto;
 }
 
 div #right-col {
