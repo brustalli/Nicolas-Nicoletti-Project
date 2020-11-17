@@ -54,7 +54,7 @@ ul.navbar-nav li {
 
 @media screen and (max-width: 600px) {
   .column {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
   }
 }
@@ -160,8 +160,7 @@ footer {
 }
 
 #articles-section {
-  width: 90%;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 div.column-texts-page {
@@ -186,7 +185,7 @@ h2.title-content-page {
 
 div.introduction-text {
   text-align: center;
-  padding-bottom: 50px;
+  padding: 0 160px 40px 160px;
 }
 h4.titles-texts {
   color: #4b169b;
@@ -194,5 +193,5 @@ h4.titles-texts {
 }
 
 div.content-texts {
-  padding: 40px;
+  padding: 20px;
 }
