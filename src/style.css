@@ -1,7 +1,7 @@
 /*  */
 
 body.index {
-  background: linear-gradient(90deg, #f0e4d2 50%, #fff 50%);
+  background: linear-gradient(90deg, #eee0c5 50%, #ffffff 50%);
   color: #252020;
   font-family: "Raleway", sans-serif;
   padding-top: 120px;
@@ -9,16 +9,19 @@ body.index {
 }
 @media screen and (max-width: 600px) {
   body.index {
-    background: #f0e4d2;
+    background: #eee0c5;
   }
 }
 
+a.navbar-brand {
+  color: #4b169b !important;
+}
 nav.navbar {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(90deg, #f0e4d2 50%, #fff 50%);
+  background: linear-gradient(90deg, #eee0c5 50%, #fff 50%);
   box-shadow: 3px 2px 10px 1px #b8b7b769;
   font-weight: 300;
   z-index: 2;
@@ -38,8 +41,8 @@ ul.navbar-nav li {
 }
 
 .container {
-  max-width: 700px;
-  margin-left: 350px;
+  max-width: 610px;
+  margin-left: 400px;
 }
 
 @media screen and (max-width: 1300px) {
@@ -49,13 +52,12 @@ ul.navbar-nav li {
 }
 
 .column {
-  float: left;
   width: 50%;
 }
 
 @media screen and (max-width: 600px) {
   .column {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
   }
 }
@@ -66,7 +68,7 @@ ul.navbar-nav li {
   clear: both;
 }
 div #left-col {
-  background-color: rgb(247, 238, 229);
+  background-color: #fcf3df;
   box-shadow: 3px 2px 10px 1px #888888;
   text-align: center;
   padding-top: 20px;
@@ -76,30 +78,33 @@ img.profile {
   width: 110px;
   max-width: 100%;
   border-radius: 50%;
-  border: 2px solid #4b169b;
   display: block;
   margin: 0 auto;
 }
 
 h5.full-name {
+  font-size: 16px;
   font-family: "Poppins", sans-serif;
-  padding: 15px;
+  padding: 30px 0 10px 0;
 }
 
-p.opening-profile {
-  padding-bottom: 20px;
+.opening-profile {
+  letter-spacing: 2px;
+  font-size: 14px;
+  padding: 10px 0;
 }
+
 a.logo-instagram {
-  color: #252020a2;
+  background-color: #fff;
+  color: #252020;
   font-size: 22px;
-  list-style: none;
   display: block;
   margin: 0 auto;
 }
 
 div #right-col {
   background-color: #ffffff;
-  padding: 50px 20px 20px 20px;
+  padding-left: 10px;
 }
 
 @media screen and (max-width: 600px) {
@@ -108,17 +113,23 @@ div #right-col {
   }
 }
 
-h2.introduction {
+h1.introduction {
   font-family: "Poppins", sans-serif;
+  font-size: 48px;
 }
 
 p.text-introduction {
-  font-size: 16px;
+  font-weight: 600;
+  font-size: 14px;
   padding-bottom: 10px;
+  line-height: 1.8;
+  letter-spacing: 1px;
 }
 
 p.personal-introduction {
-  font-size: 14px;
+  font-size: 12px;
+  line-height: 1.8;
+  letter-spacing: 1.8px;
 }
 
 a:link {
