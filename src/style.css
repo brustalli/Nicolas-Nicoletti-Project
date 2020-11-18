@@ -150,27 +150,19 @@ a:active {
   text-decoration: none;
 }
 
-footer {
-  font-size: 10px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  text-align: end;
-  color: #252020a4;
-  margin: 30px;
-  padding-top: 50px;
-}
-
 #articles-section {
   margin-top: 150px;
 }
 
 div.column-texts-page {
   background: #fff;
-  font-weight: 400;
   line-height: 1.6;
   box-shadow: 3px 2px 10px 1px #b8b7b769;
+  width: 80%;
+  margin: 0 auto;
 }
 
-h2.title-content-page {
+h4.title-content-page {
   text-align: center;
   font-family: "Poppins", sans-serif;
   padding-bottom: 20px;
@@ -184,7 +176,7 @@ h2.title-content-page {
 
 div.introduction-text {
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   padding: 0 160px 40px 160px;
   letter-spacing: 1px;
@@ -204,7 +196,16 @@ h4.titles-texts {
 
 div.content-texts {
   padding: 20px;
-  line-height: 1.8;
+  font-weight: 400;
   letter-spacing: 1.8px;
   font-size: 12px;
+}
+
+footer {
+  font-size: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: end;
+  color: #252020a4;
+  margin: 30px;
+  padding-top: 50px;
 }
