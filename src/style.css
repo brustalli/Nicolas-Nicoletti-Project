@@ -39,11 +39,6 @@ ul.navbar-nav li {
   color: #a89a9a !important;
 }
 
-#index {
-  max-width: 610px;
-  margin-left: 400px;
-}
-
 @media screen and (max-width: 1300px) {
   #index {
     margin: 0 auto;
@@ -67,11 +62,7 @@ ul.navbar-nav li {
   clear: both;
 }
 div #left-col {
-  background-color: #ede7d4;
-  box-shadow: 1px 1px 10px 1px #888888;
   text-align: center;
-  padding-top: 20px;
-  width: 50%;
 }
 img.profile {
   width: 160px;
@@ -94,22 +85,16 @@ h6.full-name {
 }
 
 a.logo-instagram {
-  background-color: #fff;
   color: #252020;
   font-size: 22px;
   display: block;
   margin: 0 auto;
 }
 
-div #right-col {
-  background-color: #fff;
-  padding-left: 10px;
-}
 
 @media screen and (max-width: 600px) {
   div #right-col {
     margin-top: 20px;
-    padding: 0 10px;
   }
 }
 
