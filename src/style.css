@@ -89,13 +89,6 @@ h6.full-name {
   padding: 5px 0;
 }
 
-a.logo-instagram {
-  color: #252020;
-  font-size: 22px;
-  display: block;
-  margin: 0 auto;
-}
-
 
 @media screen and (max-width: 600px) {
   div #right-col {
@@ -144,7 +137,7 @@ a:active {
 
 p.quote {
   font-weight: 600;
-  color: #fff;
+  color: #1f1a0ead;
   background-color: #b9b29ead;
   padding: 70px;
   margin: 100px 0;
@@ -204,7 +197,16 @@ div.content-texts {
   font-size: 12px;
 }
 
-footer {
+a.logo-instagram {
+  color: #252020;
+  font-size: 28px;
+  display: block;
+  margin: 0 auto;
+  
+}
+
+
+#open-sourced {
   font-size: 10px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: end;
