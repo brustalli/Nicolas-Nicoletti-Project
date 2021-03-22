@@ -7,6 +7,9 @@ body {
   padding-top: 120px;
   font-weight: 400;
 }
+
+
+
 @media screen and (max-width: 600px) {
   body {
     background: #d9d3c1;
@@ -18,11 +21,14 @@ nav.navbar {
   top: 0;
   left: 0;
   right: 0;
-  background: #c9c3b2;
+  background: #D9D3C1;
   box-shadow: 1px 1px 10px 1px #b8b7b769;
   font-weight: 300;
   z-index: 2;
 }
+
+
+
 .navbar-brand {
   color: #333 !important;
 }
@@ -45,17 +51,6 @@ ul.navbar-nav li {
   }
 }
 
-.column {
-  width: 50%;
-}
-
-@media screen and (max-width: 600px) {
-  .column {
-    width: 90%;
-    margin: 0 auto;
-  }
-}
-
 .row:after {
   content: "";
   display: table;
@@ -63,6 +58,7 @@ ul.navbar-nav li {
 }
 div #left-col {
   text-align: center;
+ 
 }
 
 div #right-col{
@@ -70,7 +66,7 @@ div #right-col{
   padding-left: 20px;
 }
 img.profile {
-  width: 160px;
+  width: 180px;
   max-width: 100%;
   height: auto;
   border-radius: 50%;
@@ -85,7 +81,7 @@ h6.full-name {
 
 .opening-profile {
   letter-spacing: 2px;
-  font-size: 14px;
+  font-size: 16px;
   padding: 5px 0;
 }
 
@@ -97,20 +93,20 @@ h6.full-name {
 }
 
 h1.introduction {
-  font-family: "Poppins", sans-serif;
   font-size: 48px;
+  font-weight: 600;
+  margin-top: 1.5rem;
 }
 
 p.text-introduction {
-  font-weight: 600;
-  font-size: 14px;
+  font-size: 18px;
   padding-bottom: 10px;
   line-height: 1.8;
   letter-spacing: 1px;
 }
 
 p.personal-introduction {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.8;
   letter-spacing: 1.8px;
 }
@@ -136,70 +132,14 @@ a:active {
 }
 
 p.quote {
-  font-weight: 600;
   color: #1f1a0ead;
-  background-color: #b9b29ead;
-  padding: 70px;
-  margin: 100px 0;
-  text-align: center;
   letter-spacing: 1px;
+  margin: 200px 50px;
 }
 
-#articles-section {
-  margin-top: 100px;
-  width: 100%;
-}
-
-div.column-texts-page {
-  background: #C9C3B2;
-  line-height: 1.6;
-  box-shadow: 3px 2px 10px 1px #b8b7b769;
-  width: 100%;
-  margin: 0 auto;
-}
-
-h5.title-content-page {
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  padding-bottom: 20px;
-  margin-top: 40px;
-}
-
-.fa-square {
-  font-size: 15px;
-  color: #4b169b;
-}
-
-div.introduction-text {
-  text-align: center;
-  font-size: 12px;
-  font-weight: 600;
-  padding: 0 160px 40px 160px;
-  letter-spacing: 1px;
-}
-
-@media screen and (max-width: 600px) {
-  div.introduction-text {
-    padding: 0 10px 40px 10px;
-  }
-}
-
-h5.titles-texts {
-  color: #4b169b;
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
-}
-
-div.content-texts {
-  padding: 20px;
-  font-weight: 400;
-  letter-spacing: 1.8px;
-  font-size: 12px;
-}
 
 a.logo-instagram {
-  color: #252020;
-  font-size: 28px;
+  font-size: 20px;
   display: block;
   margin: 0 auto;
   
@@ -213,4 +153,56 @@ a.logo-instagram {
   color: #252020a4;
   margin: 30px;
   padding-top: 50px;
+}
+
+
+#intro-articles-page {
+  text-align: center;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  
+}
+
+.fa-square {
+  font-size: 15px;
+  color: #4b169b;
+}
+
+#intro-articles {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0 180px 40px 180px;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 600px) {
+  #intro-articles {
+    padding: 0 10px 40px 10px;
+  }
+}
+
+h5.titles-articles {
+  color: #4b169b;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+}
+
+p.second-title{
+  margin-bottom: 50px;
+}
+
+#first-article {
+  line-height: 1.6;
+  box-shadow: 3px 2px 10px 1px #b8b7b769;
+  background-color: #fff;
+  padding: 60px 40px;
+}
+
+#second-article {
+  margin-top: 50px;
+  line-height: 1.6;
+  box-shadow: 3px 2px 10px 1px #b8b7b769;
+  background-color: #fff;
+  padding: 60px 40px;
 }
