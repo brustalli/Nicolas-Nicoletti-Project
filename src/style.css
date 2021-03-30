@@ -51,6 +51,10 @@ ul.navbar-nav li {
   }
 }
 
+div.row{
+  margin-bottom: 180px;
+}
+
 .row:after {
   content: "";
   display: table;
@@ -63,7 +67,8 @@ div #left-col {
 
 div #right-col{
   border-left: 1px solid #b9b29e;
-  padding-left: 20px;
+  padding: 30px;
+
 }
 img.profile {
   width: 180px;
@@ -74,8 +79,7 @@ img.profile {
   margin: 0 auto;
 }
 
-h6.full-name {
-  font-family: "Poppins", sans-serif;
+h4.full-name {
   padding: 15px 0 5px 0;
 }
 
@@ -92,8 +96,8 @@ h6.full-name {
   }
 }
 
-h1.introduction {
-  font-size: 48px;
+h1.introduction { 
+  font-size: 3.5rem;
   font-weight: 600;
   margin-top: 1.5rem;
 }
@@ -105,10 +109,19 @@ p.text-introduction {
   letter-spacing: 1px;
 }
 
+h2.about-me{
+  text-align: center;
+  padding: 3rem 1rem 1rem 1rem;
+}
+
 p.personal-introduction {
   font-size: 14px;
   line-height: 1.8;
   letter-spacing: 1.8px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  
 }
 
 a:link {
@@ -132,9 +145,9 @@ a:active {
 }
 
 p.quote {
-  color: #1f1a0ead;
+  color:#634439;
   letter-spacing: 1px;
-  margin: 200px 50px;
+  margin: 250px 100px;
 }
 
 
